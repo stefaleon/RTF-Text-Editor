@@ -54,7 +54,17 @@ namespace RTFTextEditor
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Rich Text File | *.rtf";
 
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.LoadFile(ofd.FileName);
+            }
+            else
+            {
+                textBox1.Text = "No file has been opened!";
+            }
         }
 
         private void toolStripButton6_MouseEnter(object sender, EventArgs e)

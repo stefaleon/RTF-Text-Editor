@@ -19,3 +19,7 @@
 &nbsp;
 ## 03 Implement the Save File functionality
 * Add a SaveFileDialog, a filter and use SaveFile.
+
+&nbsp;
+## 04 Implement the Open File functionality
+* Add a OpeneFileDialog, a filter and use LoadFile.
