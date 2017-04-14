@@ -31,3 +31,7 @@
 &nbsp;
 ## 06 Implement the Set to Italic functionality
 * Set or unset SelectionFont to FontStyle.Italic.
+
+&nbsp;
+## 07 Implement the Underline functionality
+* Set or unset SelectionFont to FontStyle.Underline.

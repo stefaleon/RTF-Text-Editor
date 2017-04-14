@@ -135,5 +135,17 @@ namespace RTFTextEditor
                 richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style ^ FontStyle.Bold);
             }
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            if (richTextBox1.SelectionFont.Underline != true)
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style | FontStyle.Underline);
+            }
+            else
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style ^ FontStyle.Underline);
+            }
+        }
     }
 }
