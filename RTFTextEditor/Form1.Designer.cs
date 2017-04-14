@@ -124,6 +124,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(84, 22);
             this.toolStripButton1.Text = "Change Color";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             this.toolStripButton1.MouseEnter += new System.EventHandler(this.toolStripButton1_MouseEnter);
             this.toolStripButton1.MouseLeave += new System.EventHandler(this.toolStripButton1_MouseLeave);
             // 

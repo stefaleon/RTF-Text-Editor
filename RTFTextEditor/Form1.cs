@@ -147,5 +147,19 @@ namespace RTFTextEditor
                 richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style ^ FontStyle.Underline);
             }
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            ColorDialog cd = new ColorDialog();
+            
+            if (cd.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionColor = cd.Color;
+            }
+            else
+            {
+                textBox1.Text = "No color has been selected";
+            }
+        }
     }
 }

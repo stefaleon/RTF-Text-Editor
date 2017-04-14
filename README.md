@@ -35,3 +35,7 @@
 &nbsp;
 ## 07 Implement the Underline functionality
 * Set or unset SelectionFont to FontStyle.Underline.
+
+&nbsp;
+## 08 Implement the Change Color functionality
+* Add a ColorDialog, and set the SelectionColor.
