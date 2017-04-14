@@ -23,3 +23,7 @@
 &nbsp;
 ## 04 Implement the Open File functionality
 * Add a OpeneFileDialog, a filter and use LoadFile.
+
+&nbsp;
+## 05 Implement the Set to Bold functionality
+* Set or unset SelectionFont to FontStyle.Bold.

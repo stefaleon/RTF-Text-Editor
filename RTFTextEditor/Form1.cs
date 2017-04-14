@@ -116,5 +116,17 @@ namespace RTFTextEditor
         {
             textBox1.Text = "";
         }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            if (richTextBox1.SelectionFont.Bold != true)
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style | FontStyle.Bold);
+            }
+            else
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style ^ FontStyle.Bold);
+            }
+        }
     }
 }
