@@ -27,3 +27,7 @@
 &nbsp;
 ## 05 Implement the Set to Bold functionality
 * Set or unset SelectionFont to FontStyle.Bold.
+
+&nbsp;
+## 06 Implement the Set to Italic functionality
+* Set or unset SelectionFont to FontStyle.Italic.

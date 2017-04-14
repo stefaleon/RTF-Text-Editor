@@ -19,7 +19,14 @@ namespace RTFTextEditor
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-
+            if (richTextBox1.SelectionFont.Italic != true)
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style | FontStyle.Italic);
+            }
+            else
+            {
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, richTextBox1.SelectionFont.Style ^ FontStyle.Italic);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
