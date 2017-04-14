@@ -39,7 +39,17 @@ namespace RTFTextEditor
 
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Rich Text File | *.rtf";
 
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SaveFile(sfd.FileName);
+            }
+            else
+            {
+                textBox1.Text = "The content has not been saved!";
+            }
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)

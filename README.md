@@ -15,3 +15,7 @@
 * Add MouseEnter and MouseLeave events for the buttons.
 * Enter relative messages for the TextBox for MouseEnter.
 * Add clearing message code for the TextBox for MouseLeave.
+
+&nbsp;
+## 03 Implement the Save File functionality
+* Add a SaveFileDialog, a filter and use SaveFile.
